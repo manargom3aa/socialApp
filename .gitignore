@@ -1,2 +1,4 @@
- node_modules
- src/config
+node_modules
+src/config
+.env
+config/.env*

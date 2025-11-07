@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "commonjs",
+  "engines": {
+    "node": "v22.17.1"
+  },
   "scripts": {
     "start:dev": "concurrently \"tsc --watch\" \"node --watch dist/index.js\""
   },
